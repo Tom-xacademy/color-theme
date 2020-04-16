@@ -5,6 +5,7 @@
     "version": "0.0.1",
     "publisher": "Tomi",
     "license": "ISC",
+    "icon": "Images/logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Tom-xacademy/color-theme"
