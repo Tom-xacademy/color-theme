@@ -1,7 +1,7 @@
-# Change Log
+# v0.2.0
 
-All notable changes to the "greenblue-theme" extension will be documented in this file.
+-   Updated color schema to work properly with function names and 'new ClassName()' calls.
 
-## [Unreleased]
+# v0.1.0
 
-- Initial release
+-   Initial release

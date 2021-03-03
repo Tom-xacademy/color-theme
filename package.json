@@ -10,11 +10,17 @@
         "type": "git",
         "url": "https://github.com/Tom-xacademy/color-theme"
     },
-    "keywords": [ "xacademy", "tomi-theme", "xa-theme" ],
+    "keywords": [
+        "xacademy",
+        "tomi-theme",
+        "xa-theme"
+    ],
     "engines": {
-        "vscode": "^1.43.0"
+        "vscode": "^1.53.0"
     },
-    "categories": [ "Themes" ],
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
