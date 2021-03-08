@@ -712,13 +712,11 @@
         {
             "scope": [
                 "meta.return-type",
-                "support.class",
                 "support.type",
                 "entity.name.type",
                 "entity.name.namespace",
                 "entity.other.attribute",
                 "entity.name.scope-resolution",
-                "entity.name.class",
                 "storage.type.numeric.go",
                 "storage.type.byte.go",
                 "storage.type.boolean.go",
@@ -755,8 +753,7 @@
                 "meta.type.new.expr",
                 "support.constant.math",
                 "support.constant.dom",
-                "support.constant.json",
-                "entity.other.inherited-class"
+                "support.constant.json"
             ],
             "settings": {
                 "foreground": "#4EC9B0"
@@ -898,16 +895,9 @@
             }
         },
         {
-            "scope": "entity.name.class",
-            "settings": {
-                "foreground": "#6C76DB"
-            }
-        },
-        {
             "scope": [
                 "entity.name",
                 "support.type",
-                "support.class",
                 "support.orther.namespace.use.php",
                 "meta.use.php",
                 "support.other.namespace.php",
@@ -916,6 +906,12 @@
             ],
             "settings": {
                 "foreground": "#6C76DB"
+            }
+        },
+        {
+            "scope": ["support.class", "entity.name.class", "entity.other.inherited-class"],
+            "settings": {
+                "foreground": "#53f10a"
             }
         },
         {
@@ -1013,6 +1009,22 @@
             "settings": {
                 "foreground": "#B267E6"
             }
+        },
+        {
+            "scope": ["string.regexp"],
+            "settings": {
+                "foreground": "#ff0040"
+            }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "class": "#09e21b",
+        "type": "#6c76db",
+        "function": "#00ffd5",
+        "typeParameter": "#cc55cc",
+        "interface": "#6c66ff",
+        "namespace": "#6c55ee",
+        "method": "#00dd77",
+        "parameter": "#ffae00"
+    }
 }
