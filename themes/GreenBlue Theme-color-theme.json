@@ -1,6 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "activityBar.activeBackground": "#117c4a",
         "activityBar.background": "#242929",
@@ -1018,13 +1019,13 @@
         }
     ],
     "semanticTokenColors": {
-        "class": "#09e21b",
-        "type": "#6c76db",
-        "function": "#00ffd5",
+        "class": "#0dee20",
+        "type": "#636cca",
+        "function": "#37ecec",
         "typeParameter": "#cc55cc",
         "interface": "#6c66ff",
         "namespace": "#6c55ee",
-        "method": "#00dd77",
-        "parameter": "#ffae00"
+        "method": "#10b418",
+        "parameter": "#267bdd"
     }
 }
