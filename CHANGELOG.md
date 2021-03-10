@@ -1,3 +1,7 @@
+# v0.2.2
+
+-   Fixed semantic coloring not being enabled, causing numerous style settings to not work as intended.
+
 # v0.2.0 - # v0.2.1
 
 -   Updated color schema to work properly with function names and 'new ClassName()' calls.
