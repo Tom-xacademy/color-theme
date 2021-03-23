@@ -2,7 +2,7 @@
     "name": "greenblue-theme",
     "displayName": "GreenBlue Theme",
     "description": "Just a simple green-blue theme with dark background.",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "publisher": "Tomi",
     "license": "ISC",
     "icon": "Images/logo.png",
@@ -21,6 +21,10 @@
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "clean": "rm -rf greenblue-theme*.vsix",
+        "build": "vsce package"
+    },
     "contributes": {
         "themes": [
             {

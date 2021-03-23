@@ -1,3 +1,8 @@
+# v0.2.3
+
+-   Improved visibility of logical operators, numbers
+-   Improved visibility of different string quotes as it could make a difference (for example in sql `` and '')
+
 # v0.2.2
 
 -   Fixed semantic coloring not being enabled, causing numerous style settings to not work as intended.
