@@ -1016,6 +1016,66 @@
             "settings": {
                 "foreground": "#ff0040"
             }
+        },
+        {
+            "scope": "string.quoted.single",
+            "settings": {
+                "foreground": "#bbff00"
+            }
+        },
+        {
+            "scope": "string.quoted.double",
+            "settings": {
+                "foreground": "#977cd6"
+            }
+        },
+        {
+            "scope": "string.quoted.other",
+            "settings": {
+                "foreground": "#00ffaa"
+            }
+        },
+        {
+            "scope": "string.unquoted",
+            "settings": {
+                "foreground": "#ff5e00"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#fffb00"
+            }
+        },
+        {
+            "scope": "keyword.operator.arithmetic",
+            "settings": {
+                "foreground": "#ff7b00"
+            }
+        },
+        {
+            "scope": "keyword.operator.assignment",
+            "settings": {
+                "foreground": "#00ffbf"
+            }
+        },
+        {
+            "scope": "keyword.operator.logical",
+            "settings": {
+                "foreground": "#ea00ff"
+            }
+        },
+        {
+            "scope": "keyword.operator.new",
+            "settings": {
+                "foreground": "#cc00ff"
+            }
+        },
+        {
+            "scope": "constant.numeric.hex",
+            "settings": {
+                "foreground": "#00ffea"
+            }
         }
     ],
     "semanticTokenColors": {
